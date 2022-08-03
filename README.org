@@ -1,0 +1,16 @@
+#+TITLE: karasu
+
+CAW CAW CAW. A lisp written in C. 
+
+* Build
+#+begin_src bash
+make
+#+end_src
+
+* Run
+#+begin_src bash
+./karasu
+#+end_src
+
+* Bugs
+Atoms are always allocated on the heap even if it may be undefined so the heap may leak.
